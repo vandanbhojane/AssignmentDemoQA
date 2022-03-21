@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd"><suite name="All Test Suite">
+    <listeners>
+        <listener class-name="ReportManager.Listener"/>
+    </listeners>
+    <test name="Login">
+        <parameter name="name" value="vandanbhojane@gmail.com"/>
+<!--       <parameter name="email" value="vandanb@gmail.com"/>-->
+<!--        <parameter name="emails" value="Vandanbh@gmail.com"/>-->
+        <classes>
+<!--            <class name="TestCases.VerifyElement"/>-->
+            <class name="TestCases.VerfiyDragDrop"/>
+<!--            <class name="TestCases.VerifyForms"/>-->
+        </classes>
+    </test>
+</suite>
